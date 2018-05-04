@@ -66,7 +66,6 @@
 		else {
 			bgcolor.b = tb;
 		}
-		bgcolor.a = 1;
 		
 
 
