@@ -1,10 +1,5 @@
 ﻿Shader "Unlit/BlurShader2D"
 {
-	Properties
-	{
-		// Declare Property to adjust smoothing factor
-		_Factor("Factor", Range(0, 5)) = 1.0
-	}
 		SubShader
 	{
 		// No culling or depth
@@ -63,7 +58,6 @@
 	// https://docs.unity3d.com/Manual/SL-PropertiesInPrograms.html
 	float4 _GrabTexture_TexelSize;
 
-	float _Factor;
 
 	// FRAGMENT SHADER
 	half4 frag(v2f i) : SV_Target
@@ -72,30 +66,29 @@
 
 		// Method to accumulate pixels in x direction
 		// x-Texture-Coord + Texel-Size * Kernel-Offset * Factor
-#define ADDPIXEL(weight, kernelX, kernelY) tex2D(_GrabTexture, float2(i.grabPosUV.x + _GrabTexture_TexelSize.x * kernelX * _Factor, \
-                											 						  i.grabPosUV.y + _GrabTexture_TexelSize.y * kernelY * _Factor)) * weight 
+#define ADDPIXEL(weight, kernelX, kernelY) tex2D(_GrabTexture, float2(i.grabPosUV.x + _GrabTexture_TexelSize.x * kernelX, \
+                											 		  i.grabPosUV.y + _GrabTexture_TexelSize.y * kernelY)) * weight
 
 		// https://www.taylorpetrick.com/portfolio/webgl/convolution?preset=2&mode=1
 
-		
-
 		// row 1
 		pixelCol += ADDPIXEL(1, -1.0, -1.0);
-		pixelCol += ADDPIXEL(0, 0.0, -1.0);
+		//pixelCol += ADDPIXEL(0, 0.0, -1.0);
 		pixelCol += ADDPIXEL(-1, 1.0, -1.0);
 
 		// row 2
 		pixelCol += ADDPIXEL(2, -1.0, 0.0);
-		pixelCol += ADDPIXEL(0, 0.0, 0.0);
+		//pixelCol += ADDPIXEL(0, 0.0, 0.0);
 		pixelCol += ADDPIXEL(-2, 1.0, 0.0);
 
 
 		// row 3
 		pixelCol += ADDPIXEL(1, -1.0, 1.0);
-		pixelCol += ADDPIXEL(0, 0.0, 1.0);
+		//pixelCol += ADDPIXEL(0, 0.0, 1.0);
 		pixelCol += ADDPIXEL(-1, 1.0, 1.0);
 
-
+		half c = (pixelCol[0] + pixelCol[1] + pixelCol[2]) / 3;
+		pixelCol = half4(c, c, c, 0);
 		return pixelCol;
 	}
 		ENDCG
