@@ -62,7 +62,6 @@
 	// FRAGMENT SHADER
 	half4 frag(v2f i) : SV_Target
 	{
-		half4 pixelCol = half4(0, 0, 0, 0);
 
 		// Method to accumulate pixels in x direction
 		// x-Texture-Coord + Texel-Size * Kernel-Offset * Factor
@@ -71,24 +70,51 @@
 
 		// https://www.taylorpetrick.com/portfolio/webgl/convolution?preset=2&mode=1
 
+		half4 pixelColX = half4(0, 0, 0, 0);
+
 		// row 1
-		pixelCol += ADDPIXEL(1, -1.0, -1.0);
-		//pixelCol += ADDPIXEL(0, 0.0, -1.0);
-		pixelCol += ADDPIXEL(-1, 1.0, -1.0);
+		pixelColX += ADDPIXEL(1, -1.0, -1.0);
+		//pixelColX += ADDPIXEL(0, 0.0, -1.0);
+		pixelColX += ADDPIXEL(-1, 1.0, -1.0);
 
 		// row 2
-		pixelCol += ADDPIXEL(2, -1.0, 0.0);
-		//pixelCol += ADDPIXEL(0, 0.0, 0.0);
-		pixelCol += ADDPIXEL(-2, 1.0, 0.0);
+		pixelColX += ADDPIXEL(2, -1.0, 0.0);
+		//pixelColX += ADDPIXEL(0, 0.0, 0.0);
+		pixelColX += ADDPIXEL(-2, 1.0, 0.0);
 
 
 		// row 3
-		pixelCol += ADDPIXEL(1, -1.0, 1.0);
-		//pixelCol += ADDPIXEL(0, 0.0, 1.0);
-		pixelCol += ADDPIXEL(-1, 1.0, 1.0);
+		pixelColX += ADDPIXEL(1, -1.0, 1.0);
+		//pixelColX += ADDPIXEL(0, 0.0, 1.0);
+		pixelColX += ADDPIXEL(-1, 1.0, 1.0);
 
-		half c = (pixelCol[0] + pixelCol[1] + pixelCol[2]) / 3;
-		pixelCol = half4(c, c, c, 0);
+		
+		//----------------------------------
+
+		half4 pixelColY = half4(0, 0, 0, 0);
+
+		// row 1
+		pixelColY += ADDPIXEL(1, -1.0, -1.0);
+		pixelColY += ADDPIXEL(2, 0.0, -1.0);
+		pixelColY += ADDPIXEL(1, 1.0, -1.0);
+
+		// row 2
+		//pixelColY += ADDPIXEL(0, -1.0, 0.0);
+		//pixelColY += ADDPIXEL(0, 0.0, 0.0);
+		//pixelColY += ADDPIXEL(0, 1.0, 0.0);
+
+		// row 3
+		pixelColY += ADDPIXEL(-1, -1.0, 1.0);
+		pixelColY += ADDPIXEL(-2, 0.0, 1.0);
+		pixelColY += ADDPIXEL(-1, 1.0, 1.0);
+
+
+		float cX = (pixelColX[0] + pixelColX[1] + pixelColX[2]) / 3;
+		float cY = (pixelColY[0] + pixelColY[1] + pixelColY[2]) / 3;
+		
+		float c = sqrt(cX * cX + cY * cY);
+		half4 pixelCol = half4(c, c, c, 0);
+
 		return pixelCol;
 	}
 		ENDCG
