@@ -42,10 +42,15 @@
 	{
 		half4 bgcolor = tex2Dproj(_BackgroundTexture, i.grabPos);
 
+		// extended this example: https://docs.unity3d.com/Manual/SL-GrabPass.html
+
+		// https://www.dyclassroom.com/image-processing-project/how-to-convert-a-color-image-into-sepia-image
+		// calulate the new sepia color values
 		float tr = 0.393 * bgcolor.r + 0.769 * bgcolor.g + 0.189 * bgcolor.b;
 		float tg = 0.349 * bgcolor.r + 0.686 * bgcolor.g + 0.168 * bgcolor.b;
 		float tb = 0.272 * bgcolor.r + 0.534 * bgcolor.g + 0.131 * bgcolor.b;
 
+		// color values greater than 1 are not valid
 		if(tr > 1) {
 			bgcolor.r = 1;
 		}
@@ -67,8 +72,6 @@
 			bgcolor.b = tb;
 		}
 		
-
-
 		return bgcolor;
 	}
 		ENDCG
