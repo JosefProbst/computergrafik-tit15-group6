@@ -70,6 +70,10 @@
 
 		// https://www.taylorpetrick.com/portfolio/webgl/convolution?preset=2&mode=1
 
+		// Sobel-Operator (https://de.wikipedia.org/wiki/Sobel-Operator)
+
+		// S_x
+
 		half4 pixelColX = half4(0, 0, 0, 0);
 
 		// row 1
@@ -89,7 +93,7 @@
 		pixelColX += ADDPIXEL(-1, 1.0, 1.0);
 
 		
-		//----------------------------------
+		//S_y
 
 		half4 pixelColY = half4(0, 0, 0, 0);
 
@@ -108,13 +112,15 @@
 		pixelColY += ADDPIXEL(-2, 0.0, 1.0);
 		pixelColY += ADDPIXEL(-1, 1.0, 1.0);
 
-
+		// convert the rgb values to greyscale values
 		float cX = (pixelColX[0] + pixelColX[1] + pixelColX[2]) / 3;
 		float cY = (pixelColY[0] + pixelColY[1] + pixelColY[2]) / 3;
 		
-		float c = sqrt(cX * cX + cY * cY);
-		half4 pixelCol = half4(c, c, c, 0);
+		// calculate the gradient magnitude
+		float c = sqrt((cX * cX) + (cY * cY));
 
+		// return the greyscale pixel
+		half4 pixelCol = half4(c, c, c, 0);
 		return pixelCol;
 	}
 		ENDCG
