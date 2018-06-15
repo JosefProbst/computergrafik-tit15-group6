@@ -63,7 +63,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Intensity: 8.7
-    - _K1: 7.28
+    - _K1: -2.12
     - _K2: 0
     - _Metallic: 0
     - _Mode: 0

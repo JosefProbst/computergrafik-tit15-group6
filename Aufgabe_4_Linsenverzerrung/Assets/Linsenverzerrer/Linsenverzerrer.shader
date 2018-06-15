@@ -14,13 +14,16 @@
 		Pass
 		{
 			CGPROGRAM
+            // Upgrade NOTE: excluded shader from DX11; has structs without semantics (struct v2f members grabPos)
+            #pragma exclude_renderers d3d11
 			#pragma vertex vert
 			#pragma fragment frag
 			#include "UnityCG.cginc"
 
 			struct v2f
 			{
-				float4 grabPos : TEXCOORD;
+				float4 grabPos : TEXCOORD0;
+				//float4 grabPosDistorted : TEXCOORD1;
 				float4 pos : SV_POSITION;
 			};
 
@@ -32,28 +35,26 @@
 
 			v2f vert(appdata_base v) {
 				v2f o;
-				o.pos = UnityObjectToClipPos(v.vertex);
-				o.grabPos = ComputeGrabScreenPos(o.pos);
+				float4 camSpace = mul(UNITY_MATRIX_MV, v.vertex); 
+				
+				float origX = camSpace.x;
+				float origY = -camSpace.y; // change direction of y-axle for the equation
+				float r2 = (origX * origX) + (origY * origY);
+				
+				camSpace.x = origX + origX * (_K1*r2 + _K2 * r2*r2) + (_P1*(r2 + 2 * origX*origX) + 2 * _P2*origX*origY);
+				camSpace.y = origY + origY * (_K1*r2 + _K2 * r2*r2) + (_P1*(r2 + 2 * origY*origY) + 2 * _P2*origX*origY);
+				
+				camSpace.y = -camSpace.y; // undo direction change of y-axle
+			    
+			    
+				o.pos = mul(UNITY_MATRIX_P, camSpace);
+				o.grabPos = ComputeGrabScreenPos(UnityObjectToClipPos(v.vertex));
 
 				return o;
 			}
 
 			fixed4 frag(v2f i) : SV_Target
 			{
-				//center coordinates in the middle of the texture
-				i.grabPos.x = i.grabPos.x - 0.5;
-				i.grabPos.y = i.grabPos.y - 0.5;
-
-				float origX = i.grabPos.x;
-				float origY = -(i.grabPos.y);
-				float r2 = (origX * origX) + (origY * origY);
-				i.grabPos.x = origX + origX * (_K1*r2 + _K2 * r2*r2) + (_P1*(r2 + 2 * origX*origX) + 2 * _P2*origX*origY);
-				i.grabPos.y = -(origY + origY * (_K1*r2 + _K2 * r2*r2) + (_P1*(r2 + 2 * origY*origY) + 2 * _P2*origX*origY));
-
-				//center coordinates int the bottom left corner again
-				i.grabPos.x = i.grabPos.x + 0.5;
-				i.grabPos.y = i.grabPos.y + 0.5;
-
 				fixed4 bgcolor = tex2Dproj(_GrabTexture, UNITY_PROJ_COORD(i.grabPos));
 				return bgcolor;
 			}
