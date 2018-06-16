@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9087537a-3163-4c64-8e3f-802a13f837f7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Aufgabe_2_Sepia_Effekt/Assets/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aufgabe_4_Linsenverzerrung/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aufgabe_4_Linsenverzerrung/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aufgabe_4_Linsenverzerrung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aufgabe_4_Linsenverzerrung/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Linsenverzerrer/GrabPosMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Linsenverzerrer/GrabPosMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Linsenverzerrer/NewUnlitShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Linsenverzerrer/NewUnlitShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache.db" afterDir="false" />
@@ -36,6 +42,8 @@
       <change beforePath="$PROJECT_DIR$/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/40/405b9b51bb344a128608d968297df79c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/40/405b9b51bb344a128608d968297df79c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/41/4149e1a60fb3ff14881c142d598b9d1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/41/4149e1a60fb3ff14881c142d598b9d1a.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" afterDir="false" />
@@ -62,6 +70,7 @@
       <change beforePath="$PROJECT_DIR$/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/ed/edc4323a11d62b74986637d626716ad0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ed/edc4323a11d62b74986637d626716ad0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ed/edc4323a11d62b74986637d626716ad0.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ed/edc4323a11d62b74986637d626716ad0.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/f5/f549c84dc66ef304a818c9a4ae988838" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f5/f549c84dc66ef304a818c9a4ae988838" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" afterDir="false" />
@@ -78,32 +87,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Linsenverzerrer.shader" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader">
+      <file leaf-file-name="LensDistorter.shader" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/LensDistorter.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="210">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
-                <marker date="1529054192000" expanded="true" signature="32:1595" ph="{...}" />
-                <marker date="1529054192000" expanded="true" signature="46:150" ph="{...}" />
-                <marker date="1529054192000" expanded="true" signature="161:1573" ph="{...}" />
-                <marker date="1529054192000" expanded="true" signature="249:1570" ph="{...}" />
-                <marker date="1529054192000" expanded="true" signature="263:1561" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewUnlitShader.shader" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/NewUnlitShader.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <marker date="1528182420000" expanded="true" signature="30:936" ph="{...}" />
-                <marker date="1528182420000" expanded="true" signature="45:89" ph="{...}" />
-                <marker date="1528182420000" expanded="true" signature="102:934" ph="{...}" />
-                <marker date="1528182420000" expanded="true" signature="157:931" ph="{...}" />
-                <marker date="1528182420000" expanded="true" signature="171:922" ph="{...}" />
+                <marker date="1529168267769" expanded="true" signature="113:1429" ph="{...}" />
+                <marker date="1529168267769" expanded="true" signature="127:251" ph="{...}" />
+                <marker date="1529168267769" expanded="true" signature="262:1407" ph="{...}" />
+                <marker date="1529168267769" expanded="true" signature="375:1404" ph="{...}" />
+                <marker date="1529168267769" expanded="true" signature="389:1395" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -120,13 +114,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/NewUnlitShader.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/LensDistorter.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader" />
+        <option value="$PROJECT_DIR$/Assets/Linsenverzerrer/LensDistorter.shader" />
       </list>
     </option>
   </component>
@@ -135,6 +129,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
@@ -147,11 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -169,6 +161,11 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,11 +198,13 @@
       <workItem from="1528179477176" duration="1672000" />
       <workItem from="1528181980239" duration="1438000" />
       <workItem from="1529053539791" duration="927000" />
+      <workItem from="1529134976803" duration="4745000" />
+      <workItem from="1529166775143" duration="1493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4964000" />
+    <option name="totallyTimeSpent" value="11202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,23 +216,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32943925" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26077098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647059" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -247,49 +247,40 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <marker date="1529054192000" expanded="true" signature="32:1595" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="46:150" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="161:1573" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="249:1570" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="263:1561" ph="{...}" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/NewUnlitShader.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <marker date="1528182420000" expanded="true" signature="30:936" ph="{...}" />
-            <marker date="1528182420000" expanded="true" signature="45:89" ph="{...}" />
-            <marker date="1528182420000" expanded="true" signature="102:934" ph="{...}" />
-            <marker date="1528182420000" expanded="true" signature="157:931" ph="{...}" />
-            <marker date="1528182420000" expanded="true" signature="171:922" ph="{...}" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/NewUnlitShader.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <marker date="1529054192000" expanded="true" signature="32:1595" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="46:150" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="161:1573" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="249:1570" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="263:1561" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -297,39 +288,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <marker date="1529054192000" expanded="true" signature="32:1595" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="46:150" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="161:1573" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="249:1570" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="263:1561" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/ParsedCombinations-Custom-Linsenverzerrer.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/NewUnlitShader.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <marker date="1528182420000" expanded="true" signature="30:936" ph="{...}" />
-            <marker date="1528182420000" expanded="true" signature="45:89" ph="{...}" />
-            <marker date="1528182420000" expanded="true" signature="102:934" ph="{...}" />
-            <marker date="1528182420000" expanded="true" signature="157:931" ph="{...}" />
-            <marker date="1528182420000" expanded="true" signature="171:922" ph="{...}" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/Compiled-Unlit-Linsenverzerrer.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/Linsenverzerrer.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Linsenverzerrer/LensDistorter.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <marker date="1529054192000" expanded="true" signature="32:1595" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="46:150" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="161:1573" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="249:1570" ph="{...}" />
-            <marker date="1529054192000" expanded="true" signature="263:1561" ph="{...}" />
+            <marker date="1529168267769" expanded="true" signature="113:1429" ph="{...}" />
+            <marker date="1529168267769" expanded="true" signature="127:251" ph="{...}" />
+            <marker date="1529168267769" expanded="true" signature="262:1407" ph="{...}" />
+            <marker date="1529168267769" expanded="true" signature="375:1404" ph="{...}" />
+            <marker date="1529168267769" expanded="true" signature="389:1395" ph="{...}" />
           </folding>
         </state>
       </provider>
