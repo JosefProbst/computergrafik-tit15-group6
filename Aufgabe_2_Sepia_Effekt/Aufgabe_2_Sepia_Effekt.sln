@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe_2_Sepia_Effekt", "Assembly-CSharp-firstpass.csproj", "{DE67F686-F657-C911-BA86-1572BEB8B769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe_2_Sepia_Effekt", "Assembly-CSharp.csproj", "{C64FE7D3-626E-3D8A-A1B0-47D43AD3A36F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe_2_Sepia_Effekt", "Assembly-CSharp-Editor-firstpass.csproj", "{6EB3E90F-153E-0215-584C-8DEC419AAD0B}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{DE67F686-F657-C911-BA86-1572BEB8B769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE67F686-F657-C911-BA86-1572BEB8B769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE67F686-F657-C911-BA86-1572BEB8B769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64FE7D3-626E-3D8A-A1B0-47D43AD3A36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64FE7D3-626E-3D8A-A1B0-47D43AD3A36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64FE7D3-626E-3D8A-A1B0-47D43AD3A36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64FE7D3-626E-3D8A-A1B0-47D43AD3A36F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6EB3E90F-153E-0215-584C-8DEC419AAD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6EB3E90F-153E-0215-584C-8DEC419AAD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB3E90F-153E-0215-584C-8DEC419AAD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU

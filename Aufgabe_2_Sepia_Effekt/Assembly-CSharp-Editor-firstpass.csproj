@@ -54,11 +54,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Phillip/Desktop/computergrafik-tit15-group6/Aufgabe_2_Sepia_Effekt/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Phillip/Desktop/computergrafik-tit15-group6/Aufgabe_2_Sepia_Effekt/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/Phillip/Desktop/computergrafik-tit15-group6/Aufgabe_2_Sepia_Effekt/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>F:/Work/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
